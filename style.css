@@ -1,0 +1,99 @@
+/* General reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Container to center content */
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(90deg, #3a8d99, #12c2e9);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-weight: 300;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 60px 0;
+    background: #fff;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 60px 0;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  #skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-box {
+    background: #12c2e9;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Projects Section */
+  #project
+  
